@@ -47,8 +47,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MyStateExample() {
-
     var counter by rememberSaveable { mutableStateOf(0) }
+
     Column(
         Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
@@ -65,7 +65,7 @@ fun MyStateExample() {
 @Composable
 fun GreetingPreview() {
     CatalogoTheme {
-        MyStateExample()
+        MyComplexLayout()
     }
 }
 
